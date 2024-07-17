@@ -13,38 +13,65 @@ body {
     width: 90%;
 }
 
-.hospital-name {
-    font-family: Arial, Helvetica, sans-serif;
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
 }
 
 .title {
     margin: 0;
     color: #040415;
-    font-family: Arial;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     line-height: 1;
     text-align: left;
     font-size: 500%;
-    padding-bottom: 5%;
+}
+
+.login-options {
+    margin: auto;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.login-options td {
+    width: calc(100%/3);
 }
 
 .option {
     display: inline-block;
     aspect-ratio: 4 / 3;
-    width: calc(90% / 3);
+    width: 100%;
     background-color: #c8e4f6;
     border-radius: 5%;
     position: relative;
+    cursor: pointer;
 }
 
 .option h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     color: #040415;
     width: 80%;
     margin: 0;
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 5%;
+    text-align: left;
+}
+
+.option h4 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    width: 90%;
+    color: #040415;
+    margin: 0;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 5px;
+    padding: 1%;
+    text-transform: uppercase;
 }
 
 #patient {
@@ -57,4 +84,11 @@ body {
     background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(200,228,246,1) 100%), url("images/healthcare_provider.jpg");
     background-position: center;
     background-size: cover;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
 }
