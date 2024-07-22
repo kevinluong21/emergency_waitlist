@@ -1,8 +1,5 @@
 # emergency_waitlist
 
-Admin Username: 
-Admin Password: 
-
 ## Application Description
 
 ### From a Developers' Perspective
@@ -13,5 +10,7 @@ How to use the application
 
 #### Admin's Perspective
 
+Admin Username: 
+Admin Password: 
 
 #### Patient's Perspective
